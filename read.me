@@ -1,0 +1,16 @@
+sudo apt install nodejs npm //install npm node.js
+~curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash  //write npm bash
+source ~/.bashrc  //save all changing in bashrc
+nvm install --lts // install lts 
+mkdir webdriverio-test  // create new framework folder
+npm init -y // download npm for folder
+npm i --save-dev @wdio/cli  //create new wdio/cli config datei
+sudo cp -r node-v20.18.0-linux-x64/{bin,include,lib,share} /usr/    //for update node.js
+npx wdio config -y // for test runner
+npm install chai  //for assertion
+npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/register // for dependies
+npm install @wdio/allure-reporter --save-dev //for reporter
+sudo npm install -g allure-commandline --save-dev  //for reporter commandline
+when eexecute the test scenarios then created automaticlly allure-results folder
+Then write a code termil commandline allure generate allure-results/ --clean && allure open then report will generated
+npm install @wdio/junit-reporter --save-dev //junit reporter for jenkins

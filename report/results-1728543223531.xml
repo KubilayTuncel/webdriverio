@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="gaming state" timestamp="2024-10-10T08:53:44" time="6.769" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="gaming state"/>
+      <property name="capabilities" value="chrome.129_0_6668_70.linux"/>
+      <property name="file" value="file://./test/specs/gaming.spec.js"/>
+    </properties>
+    <testcase classname="chrome.129_0_6668_70.linux.gaming_state" name="get playstation items name" time="6.768">
+      <system-out><![CDATA[
+COMMAND: GET /session/a11a893af029c25209c7e657ec97a20f/window - {}
+RESULT: {}
+COMMAND: POST /session/a11a893af029c25209c7e657ec97a20f/elements - {"using":"css selector","value":".vl-flyout-nav__js-tab a[href*=\"Elektronik\"]"}
+RESULT: {"using":"css selector","value":".vl-flyout-nav__js-tab a[href*=\"Elektronik\"]"}
+COMMAND: POST /session/a11a893af029c25209c7e657ec97a20f/actions - {"actions":[{"id":"action1","type":"pointer","parameters":{"pointerType":"mouse"},"actions":[{"type":"pointerMove","button":0,"x":0,"y":0,"duration":100,"origin":{"element-6066-11e4-a52e-4f735466cecf":"f.939BB2E7B8B430E929715FDD1329997C.d.270F8D2E41D0B71335B63708DAD62032.e.54"}}]}]}
+RESULT: {"actions":[{"id":"action1","type":"pointer","parameters":{"pointerType":"mouse"},"actions":[{"type":"pointerMove","button":0,"x":0,"y":0,"duration":100,"origin":{"element-6066-11e4-a52e-4f735466cecf":"f.939BB2E7B8B430E929715FDD1329997C.d.270F8D2E41D0B71335B63708DAD62032.e.54"}}]}]}
+COMMAND: DELETE /session/a11a893af029c25209c7e657ec97a20f/actions - {}
+RESULT: {}
+COMMAND: POST /session/a11a893af029c25209c7e657ec97a20f/element/f.939BB2E7B8B430E929715FDD1329997C.d.270F8D2E41D0B71335B63708DAD62032.e.60/click - {}
+COMMAND: GET /session/a11a893af029c25209c7e657ec97a20f/window - {}
+COMMAND: GET /session/a11a893af029c25209c7e657ec97a20f/window - {}
+COMMAND: GET /session/a11a893af029c25209c7e657ec97a20f/window - {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+COMMAND: POST /session/a11a893af029c25209c7e657ec97a20f/element/f.939BB2E7B8B430E929715FDD1329997C.d.5E2CCFCB1A06DAA7A01C0C0892DD697A.e.88/click - {}
+COMMAND: GET /session/a11a893af029c25209c7e657ec97a20f/window - {}
+COMMAND: GET /session/a11a893af029c25209c7e657ec97a20f/window - {}
+COMMAND: GET /session/a11a893af029c25209c7e657ec97a20f/window - {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/a11a893af029c25209c7e657ec97a20f/element/f.939BB2E7B8B430E929715FDD1329997C.d.756D677CD884A9787283EA8B3C00A118.e.109/text - {}
+COMMAND: GET /session/a11a893af029c25209c7e657ec97a20f/element/f.939BB2E7B8B430E929715FDD1329997C.d.756D677CD884A9787283EA8B3C00A118.e.110/text - {}
+COMMAND: GET /session/a11a893af029c25209c7e657ec97a20f/element/f.939BB2E7B8B430E929715FDD1329997C.d.756D677CD884A9787283EA8B3C00A118.e.112/text - {}
+COMMAND: GET /session/a11a893af029c25209c7e657ec97a20f/element/f.939BB2E7B8B430E929715FDD1329997C.d.756D677CD884A9787283EA8B3C00A118.e.111/text - {}
+COMMAND: GET /session/a11a893af029c25209c7e657ec97a20f/element/f.939BB2E7B8B430E929715FDD1329997C.d.756D677CD884A9787283EA8B3C00A118.e.114/text - {}
+COMMAND: GET /session/a11a893af029c25209c7e657ec97a20f/element/f.939BB2E7B8B430E929715FDD1329997C.d.756D677CD884A9787283EA8B3C00A118.e.113/text - {}
+COMMAND: GET /session/a11a893af029c25209c7e657ec97a20f/element/f.939BB2E7B8B430E929715FDD1329997C.d.756D677CD884A9787283EA8B3C00A118.e.116/text - {}
+COMMAND: GET /session/a11a893af029c25209c7e657ec97a20f/element/f.939BB2E7B8B430E929715FDD1329997C.d.756D677CD884A9787283EA8B3C00A118.e.115/text - {}
+COMMAND: GET /session/a11a893af029c25209c7e657ec97a20f/element/f.939BB2E7B8B430E929715FDD1329997C.d.756D677CD884A9787283EA8B3C00A118.e.118/text - {}
+COMMAND: GET /session/a11a893af029c25209c7e657ec97a20f/element/f.939BB2E7B8B430E929715FDD1329997C.d.756D677CD884A9787283EA8B3C00A118.e.117/text - {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+COMMAND: DELETE /session/a11a893af029c25209c7e657ec97a20f - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
